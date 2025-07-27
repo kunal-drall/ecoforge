@@ -44,13 +44,13 @@ const EcoForgeHero = () => {
         {/* CTA Button */}
         <div className="fade-in-delay-2">
           <Button 
-            variant="hero" 
+            variant="eco" 
             size="lg" 
             onClick={scrollToFeatures}
-            className="text-lg px-8 py-4 rounded-xl font-semibold"
+            className="text-lg px-8 py-4 rounded-xl font-semibold bg-eco-green hover:bg-eco-green/90 text-white"
           >
             Explore EcoForge
-            <Leaf className="w-5 h-5" />
+            <Leaf className="w-5 h-5 ml-2" />
           </Button>
         </div>
 
