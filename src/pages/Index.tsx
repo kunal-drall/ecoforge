@@ -1,12 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import EcoForgeHero from "@/components/EcoForgeHero";
+import EcoForgeAbout from "@/components/EcoForgeAbout";
+import EcoForgeFeatures from "@/components/EcoForgeFeatures";
+import EcoForgeHowItWorks from "@/components/EcoForgeHowItWorks";
+import EcoForgeCTA from "@/components/EcoForgeCTA";
+import EcoForgeFooter from "@/components/EcoForgeFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <EcoForgeHero />
+      <EcoForgeAbout />
+      <EcoForgeFeatures />
+      <EcoForgeHowItWorks />
+      <EcoForgeCTA />
+      <EcoForgeFooter />
     </div>
   );
 };
