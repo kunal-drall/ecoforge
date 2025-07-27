@@ -36,10 +36,13 @@ const EcoForgeCTA = () => {
             <Button 
               variant="hero" 
               size="lg"
+              asChild
               className="text-lg px-8 py-4 rounded-xl font-semibold bg-white text-eco-green hover:bg-white/90"
             >
-              <FileText className="w-5 h-5" />
-              Read Whitepaper
+              <a href="https://drive.google.com/file/d/1l1TE2bdkwaDRNUz_TdWLM9aYf6IyZAVW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <FileText className="w-5 h-5" />
+                Read Whitepaper
+              </a>
             </Button>
             
             <Button 
